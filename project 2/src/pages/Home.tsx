@@ -29,15 +29,15 @@ function Home() {
         />
 
         {/* Navigation Links */}
-        <div className="flex flex-col sm:flex-row justify-center items-center gap-3 sm:gap-6 text-base sm:text-lg font-light text-gray-300 mt-2 text-center">
+        <div className="flex justify-center items-center gap-6 text-sm sm:text-lg font-light text-gray-300 mt-2">
           <Link to="/about" className="hover:text-white transition-all duration-200">
             About Us
           </Link>
-          <span className="hidden sm:inline">|</span>
+          <span>|</span>
           <Link to="/shop" className="hover:text-white transition-all duration-200">
             Shop
           </Link>
-          <span className="hidden sm:inline">|</span>
+          <span>|</span>
           <Link to="/rewards" className="hover:text-white transition-all duration-200">
             Subscribe
           </Link>
