@@ -20,24 +20,24 @@ function Home() {
       <div className="absolute inset-0 bg-black bg-opacity-50"></div>
 
       {/* Content Section */}
-      <div className="relative z-10 flex flex-col items-center space-y-2">
+      <div className="relative z-10 flex flex-col items-center space-y-4">
         {/* Logo Image */}
         <img
           src="/AlineaLogo.png"
           alt="Alinea Logo"
-          className="w-[500px] h-[108px] object-contain mt-12"
+          className="w-[300px] h-[65px] sm:w-[400px] sm:h-[87px] lg:w-[500px] lg:h-[108px] object-contain mt-12"
         />
 
         {/* Navigation Links */}
-        <div className="flex justify-center items-center gap-6 text-lg font-light text-gray-300 mt-2">
+        <div className="flex flex-col sm:flex-row justify-center items-center gap-3 sm:gap-6 text-base sm:text-lg font-light text-gray-300 mt-2 text-center">
           <Link to="/about" className="hover:text-white transition-all duration-200">
             About Us
           </Link>
-          <span>|</span>
+          <span className="hidden sm:inline">|</span>
           <Link to="/shop" className="hover:text-white transition-all duration-200">
             Shop
           </Link>
-          <span>|</span>
+          <span className="hidden sm:inline">|</span>
           <Link to="/rewards" className="hover:text-white transition-all duration-200">
             Subscribe
           </Link>
