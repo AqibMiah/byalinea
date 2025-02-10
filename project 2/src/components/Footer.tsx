@@ -22,9 +22,13 @@ function Footer() {
           <div>
             <h4 className="text-lg font-semibold mb-4 text-black">Connect</h4>
             <ul className="space-y-3">
-              <li><a href="#" className="text-black hover:text-gray-600 transition">Instagram</a></li>
-              <li><a href="#" className="text-black hover:text-gray-600 transition">Pinterest</a></li>
-              <li><a href="#" className="text-black hover:text-gray-600 transition">Facebook</a></li>
+              <li><a href="https://www.instagram.com/byalineaa/" className="text-black hover:text-gray-600 transition">Instagram</a></li>
+              <li><a href="https://www.tiktok.com/@byalineaa?lang=en" className="text-black hover:text-gray-600 transition">Tiktok</a></li>
+              <li>
+                <a href="mailto:byalineaa@gmail.com" className="text-black hover:text-gray-600 transition">
+                  Email
+                </a>
+              </li>
             </ul>
           </div>
 
